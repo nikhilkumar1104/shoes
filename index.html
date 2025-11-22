@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store - Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+        nav a { color: white; text-decoration: none; padding: 0.5rem; border-radius: 4px; background-color: #555; }
+        nav a:hover { background-color: #777; }
+        .hero { background-color: #e0e0e0; padding: 2rem; text-align: center; }
+        .featured { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; padding: 2rem; }
+        .product { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 250px; text-align: center; }
+        .product img { width: 100%; height: 150px; object-fit: cover; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shoe Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="payment.html">Payment</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to Our Shoe Store!</h2>
+            <p>Discover the latest trends in footwear. Quality shoes for every occasion.</p>
+        </section>
+        <section class="featured">
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=1" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p>$99.99</p>
+                <a href="product.html">View Details</a>
+            </div>
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=2" alt="Casual Sneakers">
+                <h3>Casual Sneakers</h3>
+                <p>$79.99</p>
+                <a href="product.html">View Details</a>
+            </div>
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=3" alt="Formal Shoes">
+                <h3>Formal Shoes</h3>
+                <p>$129.99</p>
+                <a href="product.html">View Details</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Shoe Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
