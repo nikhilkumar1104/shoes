@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store - Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+        nav a { color: white; text-decoration: none; padding: 0.5rem; border-radius: 4px; background-color: #555; }
+        nav a:hover { background-color: #777; }
+        .cart { padding: 2rem; }
+        .cart-item { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); display: flex; align-items: center; }
+        .cart-item img { width: 100px; height: 100px; object-fit: cover; margin-right: 1rem; }
+        .total { text-align: right; font-weight: bold; margin-top: 2rem; }
+        .checkout { text-align: center; margin-top: 2rem; }
+        .checkout a { background-color: #4CAF50; color: white; padding: 1rem; text-decoration: none; border-radius: 4px; }
+        .checkout a:hover { background-color: #45a049; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shoe Store - Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="payment.html">Payment</a>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-item">
+                <img src="https://picsum.photos/300/200?random=1" alt="Running Shoes">
+                <div>
+                    <h3>Running Shoes</h3>
+                    <p>Quantity: 1</p>
+                    <p>$99.99</p>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="https://picsum.photos/300/200?random=2" alt="Casual Sneakers">
+                <div>
+                    <h3>Casual Sneakers</h3>
+                    <p>Quantity: 2</p>
+                    <p>$159.98</p>
+                </div>
+            </div>
+            <div class="total">
+                <p>Total: $259.97</p>
+            </div>
+            <div class="checkout">
+                <a href="payment.html">Proceed to Payment</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Shoe Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
