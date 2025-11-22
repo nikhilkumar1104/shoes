@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store - Products</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #333; color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+        nav a { color: white; text-decoration: none; padding: 0.5rem; border-radius: 4px; background-color: #555; }
+        nav a:hover { background-color: #777; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; padding: 2rem; }
+        .product { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+        .product img { width: 100%; height: 200px; object-fit: cover; }
+        .product button { background-color: #4CAF50; color: white; border: none; padding: 0.5rem; cursor: pointer; border-radius: 4px; }
+        .product button:hover { background-color: #45a049; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shoe Store - Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="payment.html">Payment</a>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=1" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p>Comfortable and durable for all your runs.</p>
+                <p>$99.99</p>
+                <a href="cart.html"><button>Add to Cart</button></a>
+            </div>
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=2" alt="Casual Sneakers">
+                <h3>Casual Sneakers</h3>
+                <p>Perfect for everyday wear.</p>
+                <p>$79.99</p>
+                <a href="cart.html"><button>Add to Cart</button></a>
+            </div>
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=3" alt="Formal Shoes">
+                <h3>Formal Shoes</h3>
+                <p>Elegant design for professional settings.</p>
+                <p>$129.99</p>
+                <a href="cart.html"><button>Add to Cart</button></a>
+            </div>
+            <div class="product">
+                <img src="https://picsum.photos/300/200?random=4" alt="Boots">
+                <h3>Boots</h3>
+                <p>Stylish and waterproof.</p>
+                <p>$149.99</p>
+                <a href="cart.html"><button>Add to Cart</button></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Shoe Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
